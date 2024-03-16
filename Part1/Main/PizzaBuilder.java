@@ -187,8 +187,6 @@ public class PizzaBuilder {
         return new Pizza(builderToppings, builderSize, builderChain);
     }
 
-
-    //helper method for seeing if toppings exists
     private boolean isToppingAbsent(String searchTopping) {
         for (String topping : this.builderToppings) {
             if (topping.equals(searchTopping)) {
